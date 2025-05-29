@@ -1,6 +1,6 @@
-# Système de Gestion d'Événements - G_EVENT
+# TP final de Poo sur la gestion d'évenements
 
-## Description du projet
+## Projet
 
 G_EVENT est une application complète de gestion d'événements permettant d'organiser, suivre et gérer différents types d'événements tels que des conférences et concerts. Cette application repose sur une architecture REST avec persistance JSON et implémente plusieurs patterns de conception, notamment Observer, Singleton et DTO.
 
@@ -312,8 +312,3 @@ Pour générer un rapport de couverture de code:
 Le rapport sera généré dans `target/site/jacoco/index.html`.
 
 
-## Auteur
-
-Ce projet a été développé par **SOUNTSA DJIELE PIO VIANNEY** dans le cadre d'un apprentissage avancé de Spring Boot avec sérialisation JSON .
-
----
