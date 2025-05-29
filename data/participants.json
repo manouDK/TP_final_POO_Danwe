@@ -1,0 +1,110 @@
+[ "java.util.ArrayList", [
+  [ "com.project.POO.model.Organisateur", {
+    "id" : "org-001",
+    "nom" : "Dr. Amina Ngono",
+    "email" : "amina.ngono@techconf.cm",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "b1d4d4ca-3bfa-44f8-8e90-590790581691", "a5e7f123-9876-4321-abcd-ef1234567890" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ],
+    "evenementsOrganises" : [ "java.util.ArrayList", [ "b1d4d4ca-3bfa-44f8-8e90-590790581691", "f2a8b567-8901-2345-6789-abcdef012345" ] ]
+  } ],
+  [ "com.project.POO.model.Organisateur", {
+    "id" : "org-002",
+    "nom" : "Paul Mbarga",
+    "email" : "paul.mbarga@eventspro.cm",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "3d0487df-138e-4e85-83de-51d9c5d1d49c", "d9e1f234-5678-9012-3456-789abcdef012" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ],
+    "evenementsOrganises" : [ "java.util.ArrayList", [ "3d0487df-138e-4e85-83de-51d9c5d1d49c", "c7b9d456-1234-5678-9abc-def012345678", "d9e1f234-5678-9012-3456-789abcdef012" ] ]
+  } ],
+  [ "com.project.POO.model.Organisateur", {
+    "id" : "org-003",
+    "nom" : "Prof. Marie Fotso",
+    "email" : "marie.fotso@univ-yaounde.cm",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "a5e7f123-9876-4321-abcd-ef1234567890", "e8d7c345-6789-0123-4567-89abcdef0123" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ],
+    "evenementsOrganises" : [ "java.util.ArrayList", [ "a5e7f123-9876-4321-abcd-ef1234567890", "e8d7c345-6789-0123-4567-89abcdef0123", "a1b2c3d4-5678-9012-3456-789012345678" ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-001",
+    "nom" : "Jean-Baptiste Nkomo",
+    "email" : "jb.nkomo@gmail.com",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "b1d4d4ca-3bfa-44f8-8e90-590790581691", "f2a8b567-8901-2345-6789-abcdef012345" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-002",
+    "nom" : "Clarisse Mballa",
+    "email" : "clarisse.mballa@yahoo.fr",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "3d0487df-138e-4e85-83de-51d9c5d1d49c", "d9e1f234-5678-9012-3456-789abcdef012", "x9y8z7w6-5432-1098-7654-321098765432" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-003",
+    "nom" : "Emmanuel Tchoua",
+    "email" : "emmanuel.tchoua@hotmail.com",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "a5e7f123-9876-4321-abcd-ef1234567890", "c7b9d456-1234-5678-9abc-def012345678" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-004",
+    "nom" : "Stephanie Ekobena",
+    "email" : "stephanie.ekobena@gmail.com",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "b1d4d4ca-3bfa-44f8-8e90-590790581691", "a5e7f123-9876-4321-abcd-ef1234567890", "f2a8b567-8901-2345-6789-abcdef012345" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-005",
+    "nom" : "David Owona",
+    "email" : "david.owona@outlook.com",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "e8d7c345-6789-0123-4567-89abcdef0123", "a1b2c3d4-5678-9012-3456-789012345678" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-006",
+    "nom" : "Fatoumata Bello",
+    "email" : "fatoumata.bello@gmail.com",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "3d0487df-138e-4e85-83de-51d9c5d1d49c", "x9y8z7w6-5432-1098-7654-321098765432" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-007",
+    "nom" : "Rodrigue Assembe",
+    "email" : "rodrigue.assembe@yahoo.fr",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "c7b9d456-1234-5678-9abc-def012345678", "d9e1f234-5678-9012-3456-789abcdef012" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-008",
+    "nom" : "Grace Nyobe",
+    "email" : "grace.nyobe@gmail.com",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "a1b2c3d4-5678-9012-3456-789012345678", "e8d7c345-6789-0123-4567-89abcdef0123" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-009",
+    "nom" : "Kevin Mboua",
+    "email" : "kevin.mboua@hotmail.com",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "f2a8b567-8901-2345-6789-abcdef012345", "b1d4d4ca-3bfa-44f8-8e90-590790581691" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-010",
+    "nom" : "Sandrine Effa",
+    "email" : "sandrine.effa@outlook.com",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "x9y8z7w6-5432-1098-7654-321098765432", "3d0487df-138e-4e85-83de-51d9c5d1d49c" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-011",
+    "nom" : "Alain Beyala",
+    "email" : "alain.beyala@gmail.com",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "a5e7f123-9876-4321-abcd-ef1234567890" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ],
+  [ "com.project.POO.model.Participant", {
+    "id" : "part-012",
+    "nom" : "Bernadette Manga",
+    "email" : "bernadette.manga@yahoo.fr",
+    "evenementsInscrits" : [ "java.util.ArrayList", [ "c7b9d456-1234-5678-9abc-def012345678" ] ],
+    "notifications" : [ "java.util.ArrayList", [ ] ]
+  } ]
+] ]
