@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G-Event - Système de Gestion d'Événements</title>
+    <title>TP de POO - Système de Gestion d'Événements</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 <!-- Header -->
-<header class="header">
-    <div class="container">
-        <div class="header-content">
-            <div class="logo">
-                <i class="fas fa-calendar-alt"></i>
-                <h1>G-Event</h1>
-            </div>
-            <nav class="nav">
-                <button class="nav-btn active" data-section="dashboard">
-                    <i class="fas fa-tachometer-alt"></i> Tableau de bord
-                </button>
-                <button class="nav-btn" data-section="events">
-                    <i class="fas fa-calendar"></i> Événements
-                </button>
-                <button class="nav-btn" data-section="participants">
-                    <i class="fas fa-users"></i> Participants
-                </button>
-                <button class="nav-btn" data-section="create-event">
-                    <i class="fas fa-plus"></i> Créer Événement
-                </button>
-            </nav>
-        </div>
+<header class="sidebar">
+    <div class="logo">
+        <i class="fas fa-calendar-alt"></i>
+        <h1>TP POO</h1>
     </div>
+    <nav class="nav-vertical">
+        <button class="nav-btn active" data-section="dashboard">
+            <i class="fas fa-tachometer-alt"></i>
+            <span> MENU PROJET </span>
+        </button>
+        <button class="nav-btn" data-section="events">
+            <i class="fas fa-calendar"></i>
+            <span>Événements</span>
+        </button>
+        <button class="nav-btn" data-section="participants">
+            <i class="fas fa-users"></i>
+            <span>Participants</span>
+        </button>
+        <button class="nav-btn" data-section="create-event">
+            <i class="fas fa-plus"></i>
+            <span>CréATION d'un Événement</span>
+        </button>
+    </nav>
 </header>
 
+
 <!-- Main Content -->
-<main class="main">
+<main class="main-with-sidebar">
     <div class="container">
         <!-- Loading Spinner -->
         <div id="loading" class="loading hidden">
@@ -46,8 +47,7 @@
         <!-- Dashboard Section -->
         <section id="dashboard" class="section active">
             <div class="section-header">
-                <h2><i class="fas fa-tachometer-alt"></i> Tableau de bord</h2>
-                <p>Vue d'ensemble de votre système de gestion d'événements</p>
+                <h2><i class="fas fa-tachometer-alt"></i> menu gestion des évenemnts </h2>
             </div>
 
             <div class="stats-grid">
