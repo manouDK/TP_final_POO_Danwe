@@ -12,8 +12,8 @@ public class SwaggerConfig {
     public OpenAPI eventManagementOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Système de Gestion d'Événements")
-                        .description("API REST pour la gestion d'événements avec stockage JSON")
+                        .title("TP final de POO sur la Gestion d'Événements")
+                        .description(" gestion d'événements avec stockage JSON")
                         .version("1.0"));
     }
 }
